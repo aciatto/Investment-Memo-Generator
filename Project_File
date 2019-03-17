@@ -1,0 +1,35 @@
+# A program that generates an investment memo
+
+print('Hello there! \n \nWelcome to the Investment Memo Generator 3000')
+print('This is a program that helps you evaluate an investment opportunity, then generates an investment memo.'
+      '\nLet\'s get started')
+
+comp_name = input('What is the company name? Name: ')
+comp_industry = input('Industry: ')
+comp_size = input('Size: ')
+comp_location = input('Location: ')
+comp_CEO = input('CEO: ')
+comp_revenue = input('Revenue: ')
+comp_growth = input('Growth: ')
+comp_competitors = input('Competitors: ')
+comp_employees = input('Employees: ')
+
+print(comp_name + ' is a ' + comp_location + ' based ' + comp_industry + ' company.')
+print(comp_name + ' generates ' + comp_revenue + ' in annual revenue and is growing at ' +
+      comp_growth + ' year-over-year. The company\'s ' + comp_employees + ' employees are led by the wonderful CEO, ' +
+      comp_CEO + '.')
+print(comp_name + ' faces competition from ' + comp_competitors + '.')
+
+
+
+# Features to incorporate
+# User input #
+#       Company name
+#       Industry
+#       Size
+#       Location
+#       CEO
+#       Revenue
+#       Growth rate
+#       Competitors
+#       Num Employees
